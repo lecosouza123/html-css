@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background-color: #19819C;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+    color: #0F4C5C;
+}
+h2{
+    color: #1FA1C2;
+}
+h1#principal{
+    text-align: center;
+    background-color: #1FA1C2;
+    color: white;
+}
+/*
+em HTML é id = em CSS é #
+em HTML é class= em CSS é .
+
+*/

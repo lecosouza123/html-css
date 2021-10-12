@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{
+    background-color: #E15C63;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: #880f15;
+
+}
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color: #A8131A;
+}
+.basico{
+    color:#db1822
+}
+.intermediario{
+    color:#a15d0eea
+}
+.avancado{
+    color:rgb(138, 2, 2)
+}
+.destaque{
+    color: rgb(112, 201, 236);
+    background-color: rgb(138, 2, 2);
+}
+/*OBS CLASS PARA MARCADO USAR EM TODOS DE UMA VEZ ID SO EM UM */

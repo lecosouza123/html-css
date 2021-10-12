@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color: darkblue;
+        }
+
+        div >p {
+            display: none; /*PARA ESCONDE PARAGRAFO*/
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            width: 300px;
+            background-color: mediumslateblue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplos de houver</h1>
+    <p>Passei mouse sobre texto abaixo</p>
+    <div>
+        Passei mouse aqui
+        <p>
+            Texto escondido...
+        </p>
+    </div>    
+    <p>Fim de exemplo</p>
+</body>
+</html>

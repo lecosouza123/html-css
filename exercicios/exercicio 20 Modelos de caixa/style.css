@@ -1,0 +1,22 @@
+@charset "UTF-8";
+h1{
+    background-color: darkcyan;
+    height: 300px;
+    width: 300px;
+    border: 10px solid goldenrod;
+
+
+    padding: 10px; /*ou coloco os quatros TOP, RIGHT ,BOTTOM, LEFT OU SO  10PX ou 2vez 10px.*/
+
+    margin: 20px auto 40px auto; /*posso colocar PX TB*/
+    outline:  5px  salmon;
+
+}
+a{
+    border: 10px solid dodgerblue;
+   
+    padding: 10px;
+
+
+
+}
